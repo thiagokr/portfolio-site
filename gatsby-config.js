@@ -22,7 +22,8 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         name: 'Thiago Krieck',
-        showThemeAuthor: 'false'
+        showThemeAuthor: 'false',
+        location: 'Blumenau, Brazil'
       },
     },
     {
