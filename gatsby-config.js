@@ -8,10 +8,10 @@ module.exports = {
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-emilia-core/gatsby-config.js
     siteTitle: `Thiago Krieck`,
-    siteTitleAlt: `Thiago Krieck -`,
-    siteHeadline: `Justapix - Portfolio of Thiago Krieck`,
+    siteTitleAlt: `Thiago Krieck | UX Designer`,
+    siteHeadline: `Hello, my name is Thiago and Justapix is my portfolio in UX and Product Design`,
     siteUrl: `https://www.justapix.com`,
-    siteDescription: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI. Includes Light/Dark mode.`,
+    siteDescription: `Justapix is the portfolio of Product Deisgner Thiago Krieck`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
     author: `@lekoarts_de`,
@@ -21,7 +21,8 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       // See the theme's README for all available options
       options: {
-        name: 'Thiago Krieck'
+        name: 'Thiago Krieck',
+        showThemeAuthor: 'false'
       },
     },
     {
